@@ -1,7 +1,6 @@
 #playbook is a list of plays
 - name: PLAY-1
   hosts: localhost
-  become: yes
   tasks:
   - name: PLAY-1 and Task-1
     ansible.builtin.debug:
