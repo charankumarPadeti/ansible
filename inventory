@@ -9,6 +9,8 @@ Course="DevOpsfrom inventory"
 Trainer="Sivakumar"
 Duration="110HRS"
 
+[web]
+107.22.106.55
 
 [catalogue]
 192.187.56.6
