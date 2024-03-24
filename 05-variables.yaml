@@ -1,4 +1,4 @@
-- name: check variables
+- name: variables from PLAY level
   hosts: local host
   vars:
     Course: "DevOps"
