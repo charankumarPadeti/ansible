@@ -1,5 +1,5 @@
 - name: install and run the nginx server
-  hosts: localhost
+  hosts: web
   become: yes
   tasks:
   - name: install the niginx
