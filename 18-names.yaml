@@ -6,6 +6,6 @@
     course: devops
     duration: 10hrs
   tasks:
-  - name print the msg
+  - name: print the msg
     ansible.builtin.debug:
       msg: " hi iam {{name}} , iam taking {{course}} , {{duration}} of 10 hrs"
