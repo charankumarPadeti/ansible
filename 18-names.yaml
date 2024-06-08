@@ -1,0 +1,11 @@
+- name: print the names
+  hosts: localhost
+  become: yes
+  vars:
+    name: charan
+    course: devops
+    duration: 10hrs
+  tasks:
+  - name print the msg
+    ansible.builtin.debug:
+    msg: " hi iam {{name}} , iam taking {{course}} , {{duration}} of 10 hrs
